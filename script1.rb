@@ -6,8 +6,8 @@ Birth = gets.chomp.to_i
 puts "Tu as #{2020 - Birth}ans"
 puts "#{name} tu veux jouer un jeux?"
 jeux = gets.chomp
-if jeux < oui
+if jeux  oui
   puts "ok, c'est parti"
-else jeux > non
+else jeux  non
   puts "dommage, une autre fois peut etre?" 
 end
